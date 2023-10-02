@@ -1,6 +1,4 @@
-# Learning React Repository
-
-## Introduction
+# Learning React
 
 Welcome to my "Learning React Repository." This repository is dedicated to documenting my journey as I learn and improve my skills in React. Here, you'll find various React projects, each contained in its own branch, showcasing my progress and development journey.
 
