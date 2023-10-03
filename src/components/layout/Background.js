@@ -4,9 +4,9 @@ function Background (props) {
 
     const backgroundStyle = {
         backgroundImage: 'url(' + imageData[0] + ')',
-        width: 'auto',
-        height: '100%'
-
+        backgroundRepeat: 'no-repeat',
+        backgroundSize:  'cover',
+        height: '100vh'
     }
 
     return <div style={backgroundStyle}>
