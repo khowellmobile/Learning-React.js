@@ -1,0 +1,10 @@
+.quoteDiv {
+  height: 75vh;
+  outline: 5px dotted green;
+}
+
+.quoteText {
+  position: absolute;
+  top: 50%;
+  outline: 5px dotted rgb(204, 31, 31);
+}
