@@ -5,10 +5,15 @@ import imageData from "../imageData/imageData";
 
 function Background(props) {
   const [currentImage, setCurrentImage] = useState(0);
+  const milliseconds = 10000;
 
   useEffect(() => {
-    setCurrentImage(2);
-  }, []);
+    const interval = setInterval(() => {
+      setCurrentImage((currentImage + 1) % imageData.length); 
+    }, milliseconds);
+  
+    return () => clearInterval(interval);
+  }, [currentImage])
 
   const backgroundStyle = {
     backgroundImage: "url(" + imageData[currentImage] + ")",
