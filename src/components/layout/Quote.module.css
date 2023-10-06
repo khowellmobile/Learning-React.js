@@ -1,10 +1,11 @@
 .quoteDiv {
-  height: 75vh;
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  height: 55vh;
   outline: 5px dotted green;
 }
 
 .quoteText {
-  position: absolute;
-  top: 50%;
   outline: 5px dotted rgb(204, 31, 31);
 }
