@@ -1,6 +1,6 @@
 .main {
   margin: 3rem auto;
   width: 90%;
-  max-width: 40rem;
-  height: 400px;
+  max-width: 60%;
+  border: 5px solid orange;
 }

@@ -6,6 +6,7 @@ function Quote() {
       <h1 className={classes.quoteText}>
         Select a Quote type to receive a quote
       </h1>
+      <h3 className={classes.quoteAuthor}>-kent howell</h3>
     </div>
   );
 }
