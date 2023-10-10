@@ -3,9 +3,11 @@
   align-items: center; 
   display: grid;
   height: 70vh;
-  width: 100%;
+  width: 75%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 500px 500px 500px 500px;
+  position: relative;
+  left: 13%;
 }
 
 .quoteText {

@@ -1,15 +1,13 @@
-import { useContext } from "react";
-
 import classes from "./MainNavigation.module.css";
 
-function MainNavigation() {
+function MainNavigation(props) {
 
   return (
-    <header className={classes.header}>
+    <div className={classes.mainNavDiv}>
       <nav>
         <ul>
           <li>
-            <button className={classes.btn}>btn1</button>
+            <button className={classes.btn}>Courage</button>
           </li>
           <li>
             <button className={classes.btn}>btn2</button>
@@ -25,7 +23,7 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
 
