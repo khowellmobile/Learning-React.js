@@ -2,7 +2,7 @@
   justify-content: center;
   align-items: center; 
   display: grid;
-  height: 55vh;
+  height: 70vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 500px 500px 500px 500px;
@@ -11,6 +11,8 @@
 .quoteText {
   justify-content: center;
   align-items: center;
+  max-width: 55rem;
+  transform: translateY(15%);
 }
 
 .quoteAuthor {
