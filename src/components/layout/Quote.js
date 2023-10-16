@@ -16,7 +16,6 @@ function Quote() {
         headers: {
           "X-Api-Key": "/zG8fTmvMWXUXk146pgAjg==7NkZydOkpYONpdmO",
           "Content-Type": "application/json",
-          'mode': 'no-cors'
         },
       })
         .then((response) => {
