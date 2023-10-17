@@ -1,34 +1,30 @@
 import { useContext } from "react";
 
 import classes from "./MainNavigation.module.css";
-import CategoryContext from "../../store/category-context";
+import QuoteContext from "../../store/quote-context";
 
 function MainNavigation(props) {
- 
-  const categoryCtx = useContext(CategoryContext);
 
-  function categoryHandler(catName) {
-    categoryCtx.setCategory(catName);
-  }
+  const quoteCtx = useContext(QuoteContext);
 
   return (
     <div className={classes.mainNavDiv}>
       <nav>
         <ul>
           <li>
-            <button className={classes.btn} onClick={categoryHandler('Courage')}>Courage</button>
+            <button className={classes.btn} onClick={() => {quoteCtx.setQuote('Courage')}}>Courage</button>
           </li>
           <li>
-            <button className={classes.btn}>btn2</button>
+            <button className={classes.btn} onClick={() => {quoteCtx.setQuote('Humor')}}>Humor</button>
           </li>
           <li>
-            <button className={classes.btn}>btn3</button>
+            <button className={classes.btn} onClick={() => {quoteCtx.setQuote('Love')}}>Love</button>
           </li>
           <li>
-            <button className={classes.btn}>btn4</button>
+            <button className={classes.btn} onClick={() => {quoteCtx.setQuote('Success')}}>Success</button>
           </li>
           <li>
-            <button className={classes.btn}>btn5</button>
+            <button className={classes.btn} onClick={() => {quoteCtx.setQuote('Inspirational')}}>Inspirational</button>
           </li>
         </ul>
       </nav>

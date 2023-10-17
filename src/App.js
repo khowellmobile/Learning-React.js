@@ -1,14 +1,14 @@
 import Layout from "./components/layout/Layout";
 import QuotePage from "./pages/QuotePage";
-import { CategoryContextProvider } from "./store/category-context";
+import { QuoteContextProvider } from "./store/quote-context";
 
 function App() {
   return (
-    <CategoryContextProvider>
+    <QuoteContextProvider>
       <Layout>
         <QuotePage />
       </Layout>
-    </CategoryContextProvider>
+    </QuoteContextProvider>
   );
 }
 
